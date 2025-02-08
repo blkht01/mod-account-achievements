@@ -1,3 +1,15 @@
+/*
+<--------------------------------------------------------------------------->
+- Developer(s): Lille Carl, Grim/Render
+- Complete: %100
+- ScriptName: 'AccountAchievements'
+- Comment: Tested and Works.
+- Orginial Creator: Lille Carl
+- Edited: Render/Grim
+- Edited: Blkht01(Qeme) Classic Plus - Added Exclusion
+<--------------------------------------------------------------------------->
+*/
+
 #include "Config.h"
 #include "ScriptMgr.h"
 #include "Chat.h"
