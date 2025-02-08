@@ -14,4 +14,4 @@ Account.Achievements.Announce = 1
 
 # List of achievement IDs to exclude (comma-separated)
 
-Account.Achievements.Excluded = 5090,5091
+Account.Achievements.Excluded = 0
