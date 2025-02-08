@@ -19,10 +19,10 @@
 
 class AccountAchievements : public PlayerScript
 {
-	static const bool limitrace = false;
-	static const bool limitlevel = false;
-	int minlevel = 80;
-	int setlevel = 1;
+	static const bool limitrace = false; // This set to true will only achievements from chars on the same team, do what you want. NOT RECOMMANDED TO BE CHANGED!!!
+	static const bool limitlevel = false; // This checks the player's level and will only add achievements to players of that level.
+	int minlevel = 80; // It's set to players of the level 60. Requires limitlevel to be set to true.
+	int setlevel = 1; // Dont Change
 
 	std::unordered_set<uint32> excludedAchievements; // Store excluded achievement IDs
 
